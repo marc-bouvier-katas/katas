@@ -3,16 +3,17 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.stream.Stream;
 
+import static java.util.Comparator.comparingInt;
 import static java.util.stream.Collectors.joining;
 
 /**
- * Ma solution
+ * My solutions.
  */
-public class Order {
+class Order {
     /**
-     * Version intuitive.
+     * First intuitive version.
      */
-    public static String order(String words) {
+    static String order(String words) {
         if (words == null || "".equals(words)) {
             return "";
         }
@@ -30,12 +31,13 @@ public class Order {
         return groupedWords.values().stream().collect(joining(" "));
     }
 
-    public static String orderLambda(String words) {
+    /** Final version with use of lambda.*/
+    static String orderLambda(String words) {
         if (words == null || "".equals(words)) {
             return "";
         }
         return Stream.of(words.split(" "))
-                .sorted(Comparator.comparingInt(Order::extractNumberFromWord))
+                .sorted(comparingInt(Order::extractNumberFromWord))
                 .collect(joining(" "));
     }
 
