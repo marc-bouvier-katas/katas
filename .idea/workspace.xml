@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="473e9fe7-4faf-49b1-8a0c-1311e17aae44" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/java-counting-duplicates/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/java-counting-duplicates/java-counting-duplicates.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/java-counting-duplicates/src/CountingDuplicates.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/java-counting-duplicates/src/CountingDuplicates2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/java-counting-duplicates/src/CountingDuplicates3.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/java-counting-duplicates/src/CountingDuplicates4.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/java-counting-duplicates/src/SolutionTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java-counting-duplicates/README.md" afterPath="$PROJECT_DIR$/java-counting-duplicates/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,7 +15,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CountingDuplicates.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CountingDuplicates.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java-counting-duplicates/src/CountingDuplicates.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="396">
@@ -31,6 +23,19 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java-counting-duplicates/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="234">
+                <caret line="8" column="30" lean-forward="false" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -115,12 +120,12 @@
         <option value="$PROJECT_DIR$/java-your-order-please/src/Order.java" />
         <option value="$PROJECT_DIR$/java-your-order-please/README.md" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
-        <option value="$PROJECT_DIR$/java-counting-duplicates/README.md" />
         <option value="$PROJECT_DIR$/java-counting-duplicates/src/SolutionTest.java" />
         <option value="$PROJECT_DIR$/java-counting-duplicates/src/CountingDuplicates2.java" />
         <option value="$PROJECT_DIR$/java-counting-duplicates/src/CountingDuplicates3.java" />
         <option value="$PROJECT_DIR$/java-counting-duplicates/src/CountingDuplicates4.java" />
         <option value="$PROJECT_DIR$/java-counting-duplicates/src/CountingDuplicates.java" />
+        <option value="$PROJECT_DIR$/java-counting-duplicates/README.md" />
       </list>
     </option>
   </component>
@@ -345,6 +350,14 @@
       <option name="presentableId" value="Default" />
       <updated>1505062788381</updated>
     </task>
+    <task id="LOCAL-00001" summary="Counting duplicate elements in String">
+      <created>1505072332266</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1505072332266</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -417,6 +430,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Counting duplicate elements in String" />
+    <option name="LAST_COMMIT_MESSAGE" value="Counting duplicate elements in String" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -660,17 +677,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java-counting-duplicates/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="396">
-            <caret line="17" column="9" lean-forward="false" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -733,6 +739,17 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-counting-duplicates/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="234">
+            <caret line="8" column="30" lean-forward="false" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
