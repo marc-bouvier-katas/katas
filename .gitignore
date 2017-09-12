@@ -47,3 +47,4 @@ Temporary Items
 .apdisk
 out/production/java-your-order-please/OrderTest.class
 out/production/java-your-order-please/Order.class
+.idea/workspace.xml
